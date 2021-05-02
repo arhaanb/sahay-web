@@ -1,0 +1,8 @@
+[[redirects]]
+  from = "/app"
+  to = "http://app.sahay.us/"
+
+[[redirects]]
+  from = "/*"
+  to = "index.html"
+	status = 200
