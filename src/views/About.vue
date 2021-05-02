@@ -24,7 +24,7 @@
 
     <div class="product">
       <div class="six columns">
-				<br><br><br>
+        <br /><br /><br />
         <p class="center">
           <img class="illus" src="@/assets/illustration2.svg" alt />
         </p>
@@ -73,18 +73,18 @@
     </div>
     <div class="u-cf"></div>
 
-    <!-- <div class="vidpen">
+    <div class="vidpen">
       <div>
         <iframe
           width="100%"
-          src="https://www.youtube.com/embed/YcaCoP7D_pk"
+          src="https://www.youtube.com/embed/Oq74rbGcpZ0"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
           class="video"
         ></iframe>
       </div>
-    </div> -->
+    </div>
 
     <br />
     <br />
