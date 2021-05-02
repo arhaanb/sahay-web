@@ -54,8 +54,12 @@
           dashboard, they can further contact other hospitals for the equipments
           required by them.
         </p>
-        <a href="/branding" target="_blank">
+        <a style="margin-right: 1em" href="/branding" target="_blank">
           <button class="cool">Company Branding</button>
+        </a>
+
+        <a href="/figma" target="_blank">
+          <button class="cool">Figma</button>
         </a>
       </div>
       <div class="six columns">
