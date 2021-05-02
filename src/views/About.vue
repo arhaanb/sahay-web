@@ -54,7 +54,7 @@
           dashboard, they can further contact other hospitals for the equipments
           required by them.
         </p>
-        <a href="https://behance.net" target="_blank">
+        <a href="/branding" target="_blank">
           <button class="cool">Company Branding</button>
         </a>
       </div>

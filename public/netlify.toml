@@ -3,6 +3,10 @@
   to = "http://app.sahay.us/"
 
 [[redirects]]
+	from = "/branding"
+	to = "https://www.behance.net/gallery/118691091/Sahay-Consolidating-the-Healthcare-system"
+
+[[redirects]]
   from = "/*"
   to = "index.html"
 	status = 200
