@@ -24,7 +24,10 @@
 
     <div class="product">
       <div class="six columns">
-        <img src="@/assets/illustration2.svg" alt />
+				<br><br><br>
+        <p class="center">
+          <img class="illus" src="@/assets/illustration2.svg" alt />
+        </p>
       </div>
       <div class="six columns prodtext">
         <h2 class="semi">Dashboard</h2>
@@ -143,5 +146,12 @@
   .vidpen {
     margin-top: 5em;
   }
+}
+p.center {
+  text-align: center;
+}
+
+.illus {
+  width: 70%;
 }
 </style>

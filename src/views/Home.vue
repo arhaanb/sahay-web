@@ -10,12 +10,16 @@
         </router-link>
       </div>
       <div class="six columns">
+        <br class="anti" /><br class="anti" />
         <div>
-          <img
-            src="@/assets/illustration.svg"
-            draggable="false"
-            alt="illustration"
-          />
+          <p class="center">
+            <img
+              src="@/assets/illustration.svg"
+              draggable="false"
+              alt="illustration"
+							class="illus"
+            />
+          </p>
         </div>
       </div>
     </div>
@@ -24,8 +28,8 @@
 
 <script>
 export default {
-  name: 'Home',
-}
+  name: "Home",
+};
 </script>
 
 <style scoped>
@@ -34,9 +38,12 @@ export default {
 }
 
 .vh {
-  margin: 4em 0 10em 0;
+  margin: 4em 0 8em 0;
 }
 
+.anti {
+  display: none;
+}
 @media (max-width: 750px) {
   .vh {
     margin: 4em 0;
@@ -44,5 +51,15 @@ export default {
   .home {
     margin: 0;
   }
+  .anti {
+    display: block;
+  }
+}
+p.center {
+  text-align: center;
+	margin: 0;
+}
+.illus {
+	margin-top: 2em;
 }
 </style>
