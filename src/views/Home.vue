@@ -5,9 +5,11 @@
         <h1 class="zero semi">Sahay</h1>
         <h5>All in one hospital management.</h5>
 
-        <router-link to="/about">
-          <button class="cool">Learn more</button>
-        </router-link>
+        <a class="download" target="_blank" href="/download">
+          <button class="cool">Download</button>
+        </a>
+
+        <router-link to="/about"> Learn more &rarr; </router-link>
       </div>
       <div class="six columns">
         <br class="anti" /><br class="anti" />
@@ -17,7 +19,7 @@
               src="@/assets/illustration.svg"
               draggable="false"
               alt="illustration"
-							class="illus"
+              class="illus"
             />
           </p>
         </div>
@@ -57,9 +59,12 @@ export default {
 }
 p.center {
   text-align: center;
-	margin: 0;
+  margin: 0;
 }
 .illus {
-	margin-top: 2em;
+  margin-top: 2em;
+}
+.download {
+	margin-right: 1em;
 }
 </style>
