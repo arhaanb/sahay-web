@@ -1,9 +1,13 @@
 [[redirects]]
-  from = "/app"
-  to = "http://app.sahay.us/"
+	from = "/app"
+	to = "http://app.sahay.us/"
 
 [[redirects]]
 	from = "/branding"
+	to = "https://www.behance.net/gallery/118691091/Sahay-Consolidating-the-Healthcare-system"
+
+[[redirects]]
+	from = "/design"
 	to = "https://www.behance.net/gallery/118691091/Sahay-Consolidating-the-Healthcare-system"
 
 [[redirects]]
@@ -11,11 +15,11 @@
 	to = "https://www.figma.com/file/ySNcGbwto8nATTlgYNksT3/hackDTU?node-id=0%3A1"
 
 [[redirects]]
-	from = "/download"
-	to = "https://drive.google.com/drive/folders/13sPrB17XOI8oZmGYhXsvgLVDajyb7Cdx?usp=sharing"
+  from = "/download"
+  to = "https://drive.google.com/drive/folders/13sPrB17XOI8oZmGYhXsvgLVDajyb7Cdx?usp=sharing"
 
 
 [[redirects]]
-  from = "/*"
-  to = "index.html"
+	from = "/*"
+	to = "index.html"	
 	status = 200
