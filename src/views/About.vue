@@ -11,7 +11,7 @@
           hospitals to work together and share resources during this pandemic.
         </p>
         <a href="//github.com/arhaanb/sahay-mobile" target="_blank">
-          <button class="cool">Download the app</button>
+          <button class="cool">App Source</button>
         </a>
       </div>
       <div class="six columns">
@@ -67,7 +67,7 @@
       </div>
       <div class="six columns">
         <p class="hrtalign">
-          <img class="hrt" src="../assets/logo.svg" draggable="false" alt />
+          <img class="hrt" src="/sur.svg" draggable="false" alt />
         </p>
       </div>
     </div>

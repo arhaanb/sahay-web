@@ -67,7 +67,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .zero {
-	margin: 0;
+	margin: 0 !important;
 }
 
 button.cool {
@@ -82,6 +82,7 @@ button.cool {
 a {
 	color: #693cbb;
 	text-decoration: none;
+	transition: 0.3s;
 }
 
 a:hover {

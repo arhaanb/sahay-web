@@ -3,7 +3,7 @@
     <div class="container">
       <div class="nav">
         <div>
-          <router-link to="/">
+          <router-link class="zero" to="/">
             <img class="logo" draggable="false" src="./assets/logo.svg" alt />
           </router-link>
         </div>
@@ -14,7 +14,12 @@
       </div>
     </div>
 
-    <router-view />
+    <main>
+      <transition name="fade" mode="out-in">
+        <router-view />
+      </transition>
+    </main>
+
     <div class="container">
       <footer class="footer">
         <div class="six columns">&copy; Sahay</div>
@@ -38,6 +43,10 @@
   padding: 0.75em 0;
 }
 
+#right a.router-link-exact-active {
+  color: #ac8de6;
+}
+
 .right {
   text-align: right;
 }
@@ -49,5 +58,14 @@
   .right {
     text-align: center;
   }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

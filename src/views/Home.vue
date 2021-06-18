@@ -1,30 +1,37 @@
 <template>
-  <div class="vh">
-    <div class="container">
-      <div class="six columns home">
-        <h1 class="zero semi">Sahay</h1>
-        <h5>All in one hospital management.</h5>
+  <div class="container">
+    <section id="home">
+      <div class="row">
+        <div class="five columns topinfo">
+          <h1 class="zero semi">Sahay</h1>
+          <h5>A collaborative experience for hospitals to manage resources.</h5>
 
-        <a class="download" target="_blank" href="/download">
-          <button class="cool">Download</button>
-        </a>
-
-        <router-link to="/about"> Learn more &rarr; </router-link>
-      </div>
-      <div class="six columns">
-        <br class="anti" /><br class="anti" />
-        <div>
-          <p class="center">
+          <div class="flex-btn">
+            <a class="download" target="_blank" href="/download">
+              <button class="cool">Download</button>
+            </a>
+            <router-link class="learn" to="/about">Learn more &rarr;</router-link>
+          </div>
+        </div>
+        <div class="seven columns">
+          <br class="anti" /><br class="anti" />
+          <div>
+            <!-- src="@/assets/illustration.svg" -->
             <img
-              src="@/assets/illustration.svg"
+              src="/landing.svg"
               draggable="false"
               alt="illustration"
-              class="illus"
+              class="illus u-pull-right"
             />
-          </p>
+            <div class="u-cf"></div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- <section id="features">
+      <h3 class="semi">Key Features</h3>
+    </section> -->
   </div>
 </template>
 
@@ -35,22 +42,32 @@ export default {
 </script>
 
 <style scoped>
-.home {
-  margin-top: 9em;
+.topinfo {
+  margin-top: 8em;
 }
 
-.vh {
-  margin: 4em 0 8em 0;
+#home {
+  margin: 3em 0 8.5em 0;
+}
+
+.flex-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.learn {
+  margin-top: -1.3em;
 }
 
 .anti {
   display: none;
 }
 @media (max-width: 750px) {
-  .vh {
-    margin: 4em 0;
+  #home {
+    margin: 3em 0 5em 0;
   }
-  .home {
+  .topinfo {
     margin: 0;
   }
   .anti {
@@ -62,9 +79,10 @@ p.center {
   margin: 0;
 }
 .illus {
-  margin-top: 2em;
+  margin-top: 0em;
+  width: 100% !important;
 }
 .download {
-	margin-right: 1em;
+  margin-right: 1em;
 }
 </style>
