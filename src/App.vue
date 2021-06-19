@@ -22,7 +22,7 @@
 
     <footer :class="`footer footer-${$route.meta.title}`">
       <div class="container">
-        <div class="six columns">&copy; Sahay</div>
+        <div class="six columns sahaytop">&copy; Sahay</div>
         <div class="six columns right">
           <a href="//madewithlove.org.in">Made with 💗 in India</a>
         </div>
@@ -33,7 +33,7 @@
 
 <style scoped>
 .logo {
-  width: 3.5em;
+  width: 2.5em;
 }
 
 .nav {
@@ -51,6 +51,14 @@
   text-align: right;
 }
 
+@media (max-width: 750px) {
+  .logo {
+    width: 2em;
+  }
+  .sahaytop {
+    margin-bottom: 0.2em;
+  }
+}
 @media (max-width: 550px) {
   footer.footer {
     text-align: center;

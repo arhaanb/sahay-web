@@ -47,7 +47,7 @@ export default {
 }
 
 #home {
-  margin: 3em 0 8.5em 0;
+  margin: 4em 0 8.5em 0;
 }
 
 .flex-btn {
@@ -65,7 +65,7 @@ export default {
 }
 @media (max-width: 750px) {
   #home {
-    margin: 3em 0 5em 0;
+    margin: 3em 0 7em 0;
   }
   .topinfo {
     margin: 0;
