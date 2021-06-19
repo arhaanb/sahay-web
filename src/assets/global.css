@@ -1,13 +1,13 @@
 @font-face {
 	font-family: "europa";
-	src: url("./fonts/europa-regular.ttf");
+	src: url("/fonts/europa-regular.ttf");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "europa-bold";
-	src: url("./fonts/europa-bold.ttf");
+	src: url("/fonts/europa-bold.ttf");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -53,17 +53,20 @@ img {
 }
 
 body::-webkit-scrollbar {
-	width: 8px;
+	/* width: 8px; */
+	display: none;
 }
 
 body::-webkit-scrollbar-track {
-	background: none;
+	display: none;
+	/* background: none; */
 }
 
 body::-webkit-scrollbar-thumb {
-	background-color: #4A2C81;
+	display: none;
+	/* background-color: #4A2C81;
 	border-radius: 0px;
-	border: 0px solid #4A2C81;
+	border: 0px solid #4A2C81; */
 }
 
 .zero {

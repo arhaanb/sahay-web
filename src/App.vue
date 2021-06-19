@@ -20,14 +20,14 @@
       </transition>
     </main>
 
-    <div class="container">
-      <footer class="footer">
+    <footer :class="`footer footer-${$route.meta.title}`">
+      <div class="container">
         <div class="six columns">&copy; Sahay</div>
         <div class="six columns right">
           <a href="//madewithlove.org.in">Made with 💗 in India</a>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -67,5 +67,9 @@
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+.footer.footer-About {
+  padding: 1em 0 !important;
 }
 </style>
