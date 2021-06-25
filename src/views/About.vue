@@ -68,7 +68,7 @@
         <h2 class="semi">How we work</h2>
         <p>
           Hospitals can register at our website after creating their account the
-          can upload the list of all their equpment that they have on the
+          can upload the list of all their equipment that they have on the
           dashboard, they can further contact other hospitals for the equipments
           required by them.
         </p>

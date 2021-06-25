@@ -10,13 +10,14 @@
             <a class="download" target="_blank" href="/download">
               <button class="cool">Download</button>
             </a>
-            <router-link class="learn" to="/about">Learn more &rarr;</router-link>
+            <router-link class="learn" to="/about"
+              >Learn more &rarr;</router-link
+            >
           </div>
         </div>
         <div class="seven columns">
           <br class="anti" /><br class="anti" />
           <div>
-            <!-- src="@/assets/illustration.svg" -->
             <img
               src="/landing.svg"
               draggable="false"
@@ -28,10 +29,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <section id="features">
-      <h3 class="semi">Key Features</h3>
-    </section> -->
   </div>
 </template>
 
