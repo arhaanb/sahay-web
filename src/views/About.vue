@@ -10,7 +10,7 @@
           and governing the system easier. Mainly a mobile app, Sahay allows
           hospitals to work together and share resources during this pandemic.
         </p>
-        <a href="//github.com/arhaanb/sahay-mobile" target="_blank">
+        <a href="//github.com/Siddhayak/sahay-mobile" target="_blank">
           <button class="cool">App Source</button>
         </a>
       </div>
