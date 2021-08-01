@@ -62,7 +62,7 @@ We learned more about the what and why to the problems of resource shortage in o
 
 - [Mobile App](https://github.com/arhaanb/sahay-mobile)
 - [Web Application/API](https://github.com/arhaanb/sahay-dash)
-- [Promotional Website](https://github.com/arhaanb/sahay-web)
+- [Promotional Website](https://github.com/arhaanb/sahay.us)
 - [Branding](https://sahay.us/design)
 
 ## The team
