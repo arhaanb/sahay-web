@@ -24,7 +24,7 @@
       <div class="container">
         <div class="six columns sahaytop">&copy; Sahay</div>
         <div class="six columns right">
-          <a href="//madewithlove.org.in">Made with 💗 in India</a>
+          <a href="//madewithlove.org.in" target="_blank">Made with 💗 in India</a>
         </div>
       </div>
     </footer>
