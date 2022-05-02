@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="cont">
     <div class="row product" id="product" style="margin-top: 1em">
       <div class="six columns prodtext mobile">
         <h2 class="semi">Product</h2>

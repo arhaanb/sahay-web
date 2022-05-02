@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="cont">
     <section id="home">
       <div class="row">
         <div class="five columns topinfo">
