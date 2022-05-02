@@ -239,7 +239,7 @@ footer.footer {
     }
   }
   a.router-link-exact-active {
-    color: red;
+    color: #ac8de6;
   }
 }
 
