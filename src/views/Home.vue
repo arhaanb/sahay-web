@@ -44,7 +44,7 @@ export default {
 }
 
 #home {
-  margin: 4em 0 8.5em 0;
+  margin: 2.5em 0 5em 0;
 }
 
 .flex-btn {

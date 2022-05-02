@@ -28,7 +28,7 @@
         <p class="center">
           <img
             class="illus"
-            src="@/assets/illustration2.svg"
+            src="../assets/illustration2.svg"
             draggable="false"
             alt="Illustration of man getting vaccinated."
           />
