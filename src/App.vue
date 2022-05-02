@@ -121,22 +121,6 @@ footer.footer {
   width: 2.25em;
 }
 
-// .nav {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   padding: 1.5em 0 0em 0;
-// }
-
-#right a.router-link-exact-active {
-  color: #ac8de6;
-}
-
-#right a {
-  margin-right: 1em;
-  font-size: 1.175em;
-}
-
 .right {
   text-align: right;
 }
@@ -194,16 +178,16 @@ footer.footer {
   display: flex;
 }
 .navbar .links a {
-  margin-left: 1em;
-  font-size: 1.1em;
+  margin-left: 1.75em;
+  font-size: 1.15em;
   transition: 0.2s;
 }
 .navbar .links a.router-link-exact-active {
-  color: red;
+  color: #ac8de6;
   // color: rgb(60, 124, 233);
 }
 .navbar .links a:hover {
-  color: red;
+  color: #ac8de6;
   // color: rgb(60, 124, 233);
 }
 .navbar {

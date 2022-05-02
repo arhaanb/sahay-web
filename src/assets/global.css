@@ -15,13 +15,13 @@
 .navcont {
 	margin: 0 auto;
 	padding: 0 2em;
-	max-width: 70%;
+	max-width: 62.5%;
 }
 
 .cont {
 	margin: 0 auto;
 	padding: 0 2em;
-	max-width: 70%;
+	max-width: 62.5%;
 }
 
 @media (max-width: 750px) {
